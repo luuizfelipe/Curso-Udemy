@@ -18,14 +18,35 @@ namespace Produto
             
         }
 
-       /* public Produto(string nome, double preco) : this()
-        {
-            Nome = nome;
-            Preco = preco;
-           
-        }
-       */
+        /* public Produto(string nome, double preco) : this()
+         {
+             Nome = nome;
+             Preco = preco;
 
+         }
+        */
+
+        /*
+           // Método Construtor
+                
+            public Produto(string nome, int preco, int quantidade)
+             {
+                    Nome = nome;
+                    Quantidade = quantidade;
+                    Preco = preco;
+             }
+         */
+
+        /*
+          // Método Sobrecarga
+
+           public Produto(string nome, int preco, int quantidade)
+            {
+                   Nome = nome;
+                   Preco = preco;
+                   Quantidade = 0;
+            }
+        */
         public Produto (string nome, double preco, int quantidade)
         {
             _nome = nome;
