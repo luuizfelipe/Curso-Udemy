@@ -1,16 +1,18 @@
 ﻿using System;
 
-namespace MyApp // Note: actual namespace depends on the project name.
+namespace MyApp
 {
     internal class Program
     {
-        static void Main(string[] args)
+         static void misn(string[] args)
         {
             var x = 10;
             var y = 20.0;
             var z = "maria";
 
-            Console.WriteLine(x + y + z);
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+            Console.WriteLine(z);
         }
     }
 }

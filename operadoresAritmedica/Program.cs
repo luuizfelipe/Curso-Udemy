@@ -8,7 +8,7 @@ namespace operadoresAritmedica
 {
     class Program
     {
-        static void Main(string[] args)
+        static void mn(string[] args)
         {
             int n1 = 3 + 4 * 2;
             int n2 = (3 + 4) * 2;

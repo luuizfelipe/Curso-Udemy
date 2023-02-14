@@ -9,7 +9,7 @@ namespace atividadeArea
 {
     class Program
     {
-        static void Main(string[] args)
+        static void masnis21(string[] args)
         {
             Triangulo x, y;
 
